@@ -13,11 +13,11 @@ For each chain (if possible/applicable on said chain):
 - Last day/month/week/year
   - price update count for each symbol
   - daily feeder transaction count
+  - feeder gas cost (for cost estimation)
 - 7-day/30-day average
   - feeder transaction gas price (for optimization/cost estimation)
   - feeder transaction gas used (for optimization)
   - average number of symbols updated per feed transaction (for optimization)
-  - cumulative feeder gas cost (for cost estimation)
 
 ### BandChain
 
