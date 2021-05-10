@@ -2,14 +2,24 @@
 
 ## Tracked Metrics
 
+### Supported Chains
+
 For each chain (if possible/applicable on said chain):
 
 - Current feeder account balance
 - Symbols currently being updated
-- 30-day/7-day price update count for each symbol
-- 30-day/7-day daily feeder transaction count
-- 30-day/7-day average feeder transaction gas price
-- 30-day/7-day average feeder transaction gas used
-- 30-day/7-day average number of symbols updated per feed transaction
-- 30-day/7-day cumulative feeder gas cost
 - Historical chart of feeder transaction gas prices
+- Historical chart of daily number of price update transactions
+- Last day/month/week/year
+  - price update count for each symbol
+  - daily feeder transaction count
+- 7-day/30-day average
+  - feeder transaction gas price (for optimization/cost estimation)
+  - feeder transaction gas used (for optimization)
+  - average number of symbols updated per feed transaction (for optimization)
+  - cumulative feeder gas cost (for cost estimation)
+
+### BandChain
+
+- last day/week/month/year
+  - request transaction count
